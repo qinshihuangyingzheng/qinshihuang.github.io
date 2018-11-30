@@ -1,4 +1,4 @@
-# qinshihuangyingzheng.github.io****************************************
+
 看摄像头的相关信息：
 
 lshal | grep Cam
