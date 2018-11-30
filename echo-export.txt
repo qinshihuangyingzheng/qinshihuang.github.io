@@ -1,0 +1,28 @@
+cd /sys/class/gpio
+for i in gpiochip* ; do echo `cat $i/label`: `cat $i/base` ; done
+echo 116 > /sys/class/gpio/export
+echo 112 > /sys/class/gpio/export
+echo 95 > /sys/class/gpio/export
+echo 96 > /sys/class/gpio/export
+echo 93 > /sys/class/gpio/export
+echo 94 > /sys/class/gpio/export
+echo 117 > /sys/class/gpio/export
+echo 113 > /sys/class/gpio/export
+echo 61 > /sys/class/gpio/export
+echo 60 > /sys/class/gpio/export
+echo 63 > /sys/class/gpio/export
+echo 62 > /sys/class/gpio/export
+echo 68 > /sys/class/gpio/export
+echo 71 > /sys/class/gpio/export
+echo 72 > /sys/class/gpio/export
+echo 88 > /sys/class/gpio/export
+echo 92 > /sys/class/gpio/export
+echo 58 > /sys/class/gpio/export
+echo 97 > /sys/class/gpio/export
+echo 104 > /sys/class/gpio/export
+echo 77 > /sys/class/gpio/export
+echo 3 > /sys/class/gpio/export
+echo 78 > /sys/class/gpio/export
+echo 05 > /sys/class/gpio/export
+
+
