@@ -1,5 +1,8 @@
+看摄像头的相关信息
 
-看摄像头的相关信息：
+[百度](http://www.baidu.com)
+
+[我的博客](https://github.com/qinshihuangyingzheng/qinshihuangyingzheng.github.io/edit/master/README)
 
 lshal | grep Cam
 
@@ -16,7 +19,7 @@ ref: https://wenku.baidu.com/view/1b68c68b71fe910ef12df80f.html
  
 
 获取照片：
-
+==
 sudo apt-get install streamer
 
 streamer -f jpeg -o image.jpeg
