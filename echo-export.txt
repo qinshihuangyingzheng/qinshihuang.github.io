@@ -1,3 +1,4 @@
+初始化端口：
 cd /sys/class/gpio
 for i in gpiochip* ; do echo `cat $i/label`: `cat $i/base` ; done
 echo 116 > /sys/class/gpio/export
@@ -25,4 +26,5 @@ echo 3 > /sys/class/gpio/export
 echo 78 > /sys/class/gpio/export
 echo 05 > /sys/class/gpio/export
 
-
+gpio控制链接：
+http://bbs.elecfans.com/jishu_705328_1_1.html
