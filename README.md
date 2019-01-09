@@ -202,3 +202,6 @@ fa ALL=(ALL) NOPASSWD: ALL
 REF: https://blog.csdn.net/white__cat/article/details/34415709
 
     https://blog.csdn.net/tty521/article/details/61422791
+  远程访问arm终端
+  操作命令ssh fa@10.0.0.114 删除文件
+  复制本地文件到登陆arm sftp fa@10.0.0.114
